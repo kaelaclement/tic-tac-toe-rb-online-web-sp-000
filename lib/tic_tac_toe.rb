@@ -99,3 +99,12 @@ end
 def full?(board)
   board.all?{|space| space == "X" || space == "O"}
 end
+
+# is it a draw?
+def draw?(board)
+  if full?(board) && !won?(board)
+    return true
+  else
+    return false
+  end
+end
