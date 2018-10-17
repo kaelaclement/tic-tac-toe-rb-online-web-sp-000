@@ -125,3 +125,7 @@ def winner(board)
     token
   end
 end
+
+# play the game
+def play
+end
