@@ -25,7 +25,7 @@ def input_to_index(input)
 end
 
 # make a game move
-def move (board, index, char = "X")
+def move (board, index, char)
   board[index] = char
 end
 
