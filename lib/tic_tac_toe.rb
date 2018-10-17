@@ -127,5 +127,5 @@ def winner(board)
 end
 
 # play the game
-def play
+def play(board)
 end
