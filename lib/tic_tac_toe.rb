@@ -108,3 +108,10 @@ def draw?(board)
     return false
   end
 end
+
+# is the game over?
+def over?(board)
+  if draw?(board) || full?(board) || won?(board)
+    return true
+  end
+end
