@@ -18,3 +18,8 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} " + "|" + " #{board[7]} " + "|" + " #{board[8]} "
 end
+
+# convert 1-9 to 0-8. -1 for no integer?
+def input_to_index(input)
+  index = input.to_i - 1
+end
