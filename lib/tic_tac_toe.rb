@@ -19,7 +19,7 @@ def display_board(board)
   puts " #{board[6]} " + "|" + " #{board[7]} " + "|" + " #{board[8]} "
 end
 
-# convert 1-9 to 0-8. -1 for no integer?
+# convert user choice to an array index
 def input_to_index(input)
   index = input.to_i - 1
 end
